@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Manchester Plumber</title>
+  <style>
+    /* Add your custom CSS styles here */
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    // Add your custom JavaScript code here
+  </script>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Manchester Plumber</h1>
+    <p>Providing top-quality plumbing services in the Manchester area.</p>
+    <div class="contact-info">
+      <p>Phone: 0000000000</p>
+      <p>Email: ww@ww.com</p>
+    </div>
+    <a href="about.html" class="cta-button">About Us</a>
+    <a href="services.html" class="cta-button">Our Services</a>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>Contact us today for all your plumbing needs!</p>
+    <div class="contact-info">
+      <p>Phone: 0000000000</p>
+      <p>Email: ww@ww.com</p>
+    </div>
+  </footer>
+
+  <script>
+    // Example animation using jQuery
+    $(document).ready(function() {
+      $('.cta-button').click(function(e) {
+        e.preventDefault();
+        var targetPage = $(this).attr('href');
+        $('html, body').animate({
+          scrollTop: $(targetPage).offset().top
+        }, 1000);
+      });
+    });
+  </script>
+</body>
+</html>

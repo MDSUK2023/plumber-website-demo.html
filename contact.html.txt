@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - Manchester Plumber</title>
+  <style>
+    /* Add your custom CSS styles here */
+  </style>
+</head>
+<body>
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Have a question or need assistance? Feel free to get in touch with us.</p>
+    <div class="contact-info">
+      <h3>Manchester Plumber</h3>
+      <p>123 Main Street, Manchester, UK</p>
+      <p>Phone: 0000000000</p>
+      <p>Email: ww@ww.com</p>
+    </div>
+    <form id="contact-form" action="submit-form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>Contact us today for all your plumbing needs!</p>
+    <div class="contact-info">
+      <p>Phone: 0000000000</p>
+      <p>Email: ww@ww.com</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Manchester Plumber</title>
+  <style>
+    /* Add your custom CSS styles here */
+  </style>
+</head>
+<body>
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at mollis mi. Curabitur sed vestibulum purus, id tincidunt odio. Nulla facilisi. Donec volutpat, leo in vestibulum ullamcorper, lectus tortor interdum urna, eget vulputate dui libero ac mi.</p>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>Contact us today for all your plumbing needs!</p>
+    <div class="contact-info">
+      <p>Phone: 0000000000</p>
+      <p>Email: ww@ww.com</p>
+    </div>
+  </footer>
+</body>
+</html>
